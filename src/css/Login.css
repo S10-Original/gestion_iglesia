@@ -1,0 +1,125 @@
+.App {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.ContenedorLogin{
+  max-width: 1000px;
+  min-width: 60vw;
+  min-height: 80vh;
+  box-shadow: 2px 2px 5px var(--gris-oscuro);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContenedorIzquierda{
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(117,43,44,1) 28%, rgba(247,118,13,1) 100%);
+  width: 60%;
+  min-height: 80vh;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LogoLogin{
+  width: 95%;
+  height: 100%;
+}
+
+.ContenedorDerecha{
+  min-height: 80vh;
+  width: 40%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: block;
+  box-sizing: border-box;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.ContenedorDerecha p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.TituloLogin{
+  font-size: 22px;
+  top: -30px;
+  position: relative;
+}
+
+.ContenedorDerecha input{
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.ContenedorDerecha input[type="text"],
+.ContenedorDerecha input[type="password"]{
+  border: none;
+  border-bottom: solid 2px red;
+  outline: none;
+  height: 40px;
+}
+
+.ContenedorDerecha input[type="text"]:focus,
+.ContenedorDerecha input[type="password"]:focus{
+  border-bottom: solid 2px black;
+}
+
+.ContenedorDerecha input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-weight: bolder;
+  background-color: var(--naranja);
+  cursor: pointer;
+}
+
+.ContenedorDerecha input[type="submit"]:hover{
+  background-color: var(--rojo-claro);
+}
+
+.ContenedorDerecha a{
+  color: #262626;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.ContenedorDerecha a:hover{
+  color: red;
+}
+
+@media (max-width: 610px){
+  .ContenedorDerecha{
+    min-height: 80vh;
+  width: 40%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: block;
+  box-sizing: border-box;
+  padding: 80px 40px;
+  text-align: center;
+  }
+
+  .ContenedorDerecha input{
+    margin-bottom: 10px;
+  }
+}
+
+

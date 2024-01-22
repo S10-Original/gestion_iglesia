@@ -1,0 +1,17 @@
+/*Aqui estamos declarando los colores como variables en css*/
+:root{
+    --rojo-claro: #752b2c;
+    --rojo-oscuro: #501c29; 
+    --gris-claro: #c4c2c2; 
+    --gris-medio: #5f5f5f; 
+    --gris-oscuro: #3a3a3a; 
+    --amarillo: #e4a04f; 
+    --naranja: #F7760D; 
+
+    /*Colores de textos*/
+    --blanco: #fefefe;
+    --gris-claro-texto: #dedede;
+    --gris-medio-texto: #afafaf;
+    --gris-oscuro-texto: #444444;
+    --negro: #000000;
+}
