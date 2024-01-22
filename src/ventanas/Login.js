@@ -1,5 +1,7 @@
+import { NavLink } from 'react-router-dom';
 import '../css/cssPrincipal.css';
 import Logo from '../img/logo-blanco-iglesia.png';
+// import Principal from './Principal';
 
 function Login() {
   return (
@@ -14,8 +16,8 @@ function Login() {
           <input type='text' name=''/>
           <p>CONTRASEÑA</p>
           <input type='password' name=''/>
-          <input type='submit' name=''/>
-          <a href='#'>OLVIDO DE CONTRASEÑA</a>
+          <button type='submit' onClick={<NavLink to="/Principal"></NavLink>}>INGRESAR</button>
+          <a href='/Principal'>OLVIDO DE CONTRASEÑA</a>
         </div>
       </div>
       
