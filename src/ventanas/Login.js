@@ -16,8 +16,8 @@ function Login() {
           <input type='text' name=''/>
           <p>CONTRASEÑA</p>
           <input type='password' name=''/>
-          <button type='submit' onClick={<NavLink to="/Principal"></NavLink>}>INGRESAR</button>
-          <a href='/Principal'>OLVIDO DE CONTRASEÑA</a>
+          <a href='/Principal'><button type='submit'>INGRESAR</button></a>
+          <a href='#'>OLVIDO DE CONTRASEÑA</a>
         </div>
       </div>
       
