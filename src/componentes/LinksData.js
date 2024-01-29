@@ -7,49 +7,49 @@ import { MdOutlineWork } from "react-icons/md"
 export const LinksData = [
     {
         title: 'Inicio',
-        path: '/',
+        path: '/Principal',
         icon: <AiFillHome />,
         cName: 'nav-text'
     },
     {
         title: 'Miembros',
-        path: '/miembros',
+        path: '/Miembros',
         icon: <FaUser />,
         cName: 'nav-text'
     },
     {
         title: 'Personal',
-        path: '/personal',
+        path: '/Personal',
         icon: <FaUserTie />,
         cName: 'nav-text'
     },
     {
         title: 'Usuarios',
-        path: '/usuarios',
+        path: '/Usuarios',
         icon: <RiAdminFill />,
         cName: 'nav-text'
     },
     {
         title: 'Cargos',
-        path: '/cargos',
+        path: '/Cargos',
         icon: <MdOutlineWork />,
         cName: 'nav-text'
     },
     {
         title: 'Ingresos-Egresos',
-        path: '/ingresosegresos',
+        path: '/Dinerito',
         icon: <FaMoneyBill />,
         cName: 'nav-text'
     },
     {
         title: 'Ministerios',
-        path: '/ministerios',
+        path: '/Ministerios',
         icon: <FaPlaceOfWorship />,
         cName: 'nav-text'
     },
     {
         title: 'Actividades',
-        path: '/actividades',
+        path: '/Actividades',
         icon: <FaClipboardList />,
         cName: 'nav-text'
     },
