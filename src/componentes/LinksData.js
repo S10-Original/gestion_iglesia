@@ -2,7 +2,8 @@ import React from "react";
 import { AiFillHome } from "react-icons/ai";
 import { FaMoneyBill, FaUser, FaUserTie, FaPlaceOfWorship, FaClipboardList } from "react-icons/fa";
 import { RiAdminFill } from "react-icons/ri";
-import { MdOutlineWork } from "react-icons/md"
+import { MdOutlineWork } from "react-icons/md";
+import { IoIosLogOut } from "react-icons/io";
 
 export const LinksData = [
     {
@@ -51,6 +52,12 @@ export const LinksData = [
         title: 'Actividades',
         path: '/Actividades',
         icon: <FaClipboardList />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Salir',
+        path: '/',
+        icon: <IoIosLogOut />,
         cName: 'nav-text'
     },
 ]
