@@ -6,7 +6,8 @@ function Ministerios() {
         <div>
             <h1>Ministerios</h1>
         </div>
+
     );
 }
 
-export default Ministerios;
+  export default Ministerios;
