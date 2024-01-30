@@ -1,0 +1,37 @@
+.formatoPagina {
+    height: 93vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Botonera{
+    border: 2px solid blue;
+    width: 80%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+}
+
+.BotoneraIzquierda{
+    background-color: black;
+    width: 60%;
+    margin-left: 20px;
+}
+
+.BotoneraDerecha{
+    background-color: wheat;
+    width: 40%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.formatoTabla{
+    background-color: rgb(198, 221, 221);
+    height: 86%;
+    width: 80%;
+    box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.6);
+}
